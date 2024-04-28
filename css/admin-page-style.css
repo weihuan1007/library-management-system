@@ -1,0 +1,56 @@
+header{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 10%;
+}
+
+div, li, header a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: black;
+    text-decoration: none;
+}
+
+.title{
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: -100px;
+    font-size: 50px;
+}
+
+.nav_link{
+    list-style: none;
+}
+
+.nav_link li{
+    display: inline-block;
+}
+
+.nav_link li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_link li a:hover{
+    color: #0088a9
+}
+
+.btn{
+    margin: auto;
+    padding: 9px 20px;
+    background-color: rgb(205, 241, 250);
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    border-radius: 10px;
+
+}
+
+button:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
